@@ -154,7 +154,7 @@ export const ProjectIdeas = {
     getByLevel: (level: ProjectLevel): Project[] => {
         return data.filter(item => item.level === level);
     },
-    getByProjectName: (projectName: string) => {
-        return data.filter(item => item.name.toLowerCase().indexOf(projectName) > -1);
+    getByProjectName: (name: string) => {
+        return data.filter(item => item.name.toLowerCase().indexOf(name.toLowerCase()) > -1);
     }
 };
