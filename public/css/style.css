@@ -1,6 +1,6 @@
 :root {
     --pagebg: #FFF;
-    --main: #102581;
+    --main: #4700FE;
     --bglink: rgba(0, 0, 0, 0.3);
     --darkbg: #FFF;
     --lightbg: #000;
@@ -93,6 +93,9 @@ h2 {
     margin: 30px auto;
 }
 .item {
+    border: 1px solid var(--main);
+    border-radius: 5px;
+    padding: 10px;
     color: var(--lightbg);
 }
 .item--image {
@@ -119,6 +122,11 @@ footer {
     text-align: center;
     font-size: 16px;
     color: var(--main);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--main);;
 }
 
 @media (max-width: 900px) {

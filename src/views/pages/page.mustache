@@ -1,0 +1,21 @@
+{{>partials/header}}
+
+{{#banner}}
+<section class="banner" style="background-image: url('images/{{background}}')">For {{title}}</section>
+<h2>{{subtitle}}</h2>
+{{/banner}}
+
+<div class="container list">
+    {{#list}}
+        <div class="item">
+            <img src="images/{{image}}" class="item--image" />
+            <div class="item--name">{{name}}</div>
+            <div class="item--color">
+                Click <a target="_blank" href="{{link}}">here</a> for an example
+            </div>
+            <div class="item--genre">Level: {{level}}</div>
+        </div>
+    {{/list}}
+</div>
+
+{{>partials/footer}}

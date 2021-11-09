@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevIdeas - For you next project!</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/">🚀 DevIdeas</a>
+        <form method="GET" action="/search">
+            <input type="search" name="q" placeholder="Search for something" />
+        </form>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li class="{{#menu.all}}active{{/menu.all}}"><a href="/">All</a></li>
+        <li class="{{#menu.beginner}}active{{/menu.beginner}}"><a href="/beginner">Beginner</a></li>
+        <li class="{{#menu.intermediate}}active{{/menu.intermediate}}"><a href="/intermediate">Intermediate</a></li>
+        <li class="{{#menu.advanced}}active{{/menu.advanced}}"><a href="/advanced">Advanced</a></li>
+    </ul>
+</nav>
