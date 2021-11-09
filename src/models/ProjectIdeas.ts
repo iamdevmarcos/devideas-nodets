@@ -21,7 +21,7 @@ const data: Project[] = [
     },
     {
         level: 'Beginner',
-        image: 'beginner/03_countDownTimer.png',
+        image: 'beginner/03_countdownTimer.png',
         name: 'Countdown Timer',
         link: 'https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/'
     },
