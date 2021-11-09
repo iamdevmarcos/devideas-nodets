@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node dist/server.js",
+    "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
@@ -25,6 +30,7 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/mustache-express": "^1.2.1",
-    "@types/node": "^16.11.6"
+    "@types/node": "^16.11.6",
+    "copyfiles": "^2.4.1"
   }
 }
