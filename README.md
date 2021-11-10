@@ -9,6 +9,8 @@
 * **Typing:** [Typescript](https://www.typescriptlang.org/)
 * **Deployment:** [Heroku](https://dashboard.heroku.com/)
 
+## Running locally
+
 ### Global prerequisites 
 `npm install -g nodemon typescript ts-node`
 
