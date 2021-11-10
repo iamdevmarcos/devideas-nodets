@@ -157,4 +157,4 @@ export const ProjectIdeas = {
     getByProjectName: (name: string) => {
         return data.filter(item => item.name.toLowerCase().indexOf(name.toLowerCase()) > -1);
     }
-};
+}

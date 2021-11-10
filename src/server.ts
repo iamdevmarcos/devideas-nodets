@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import dotenv from 'dotenv';
 import mustache from 'mustache-express';
+import dotenv from 'dotenv';
 import path from 'path';
 
 import mainRoutes from './routes/index';
@@ -16,8 +16,8 @@ app.engine('mustache', mustache());
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.use(mainRoutes);
-app.use((req: Request, res: Response) => {
+app.use((req: Request, res: Response)=>{
     res.render('pages/404');
-})
+});
 
 app.listen(process.env.PORT);
