@@ -1,6 +1,7 @@
 # devideas-nodets
-
 > Website for app ideas <3
+
+<img src="./public/images/Project.gif" alt="gif">
 
 ## Technology stack
 
