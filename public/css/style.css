@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all ease 1s;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -97,6 +98,10 @@ h2 {
     border-radius: 5px;
     padding: 10px;
     color: var(--lightbg);
+}
+.item:hover {
+    border-radius:20px;
+    border: 1px solid #000;
 }
 .item--image {
     width: 100%;
